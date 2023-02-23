@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Odev</title>
+
+    <style>
+
+    .flex-container-1 { background-color: rgb(241, 161, 161); display: flex; margin-bottom: 8px;}
+
+    div[class^=ic-kutu-] {
+
+        margin: 8px;
+        height: 100px;
+    }
+
+    .ic-kutu-1 {
+
+        width: 100px;
+        background-color: brown;
+    }
+
+    .ic-kutu-2 {
+
+    width: 200px;
+    background-color: blue;
+    }
+
+    .ic-kutu-3 {
+    width: 90px;
+    background-color: red;
+    }
+
+
+    .inner-box {
+
+        display: flex;
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    </style>
+</head>
+<body>
+
+
+    <textarea style="resize: none; width: 30%; height: 100px;"></textarea>
+
+    <div class="kapsayici-div">
+
+    
+     <div class="flex-container-1">
+
+        <div class="ic-kutu-1"></div>
+        <div class="ic-kutu-2"></div>
+        <div class="ic-kutu-3"></div>
+
+
+     </div>
+     
+     <!--  container 2 -->
+     <div class="flex-container-1" style="justify-content: flex-end;">
+
+        <div class="ic-kutu-1"></div>
+        <div class="ic-kutu-2"></div>
+        <div class="ic-kutu-3"></div>
+
+
+     </div>
+
+
+     <!-- container 3 -->
+
+     <div class="flex-container-1" style="justify-content: center;">
+
+        <div class="ic-kutu-1"></div>
+        <div class="ic-kutu-2"></div>
+        <div class="ic-kutu-3"></div>
+
+
+     </div>
+
+     <!-- container 4 -->
+
+
+     <div class="flex-container-1" style="justify-content: space-between;">
+
+        <div class="ic-kutu-1"></div>
+        <div class="ic-kutu-2"></div>
+        <div class="ic-kutu-3"></div>
+
+
+     </div>
+
+
+     <!-- container 5 -->
+
+     <div class="flex-container-1" style="justify-content: space-around;">
+
+        <div class="ic-kutu-1"></div>
+        <div class="ic-kutu-2"></div>
+        <div class="ic-kutu-3"></div>
+
+
+     </div>
+
+
+
+         <!-- container 6 -->
+
+         <div class="flex-container-1">
+
+            <div class="inner-box">
+
+                <div class="ic-kutu-1"></div>
+                <div class="ic-kutu-2"></div>
+                <div class="ic-kutu-3"></div>
+
+            </div>
+        
+    
+    
+         </div>
+
+
+
+    </div>
+    
+</body>
+</html>
